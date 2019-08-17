@@ -3,13 +3,15 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/home.css"/>
     <title>Home</title>
 </head>
 <body>
 
 <main>
-    <div>Olב, teste חבדפי</div>
+    <p class="title">Douglas e Eduardo</p>
 </main>
 
 <script src="/js/jquery-3.3.1.min.js"></script>
