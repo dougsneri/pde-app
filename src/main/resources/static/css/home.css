@@ -1,6 +1,17 @@
 @charset "UTF-8";
 
-.title{
-	font-size: 50px;
-	color: red;
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-itens: center;
+}
+
+.header-right{
+	display: flex;
+	justify-content: space-between;
+	align-itens: center;
+}
+
+.title:before{
+	content: "Faz um exemplo aqui cachorro, chamando a imagem."
 }
