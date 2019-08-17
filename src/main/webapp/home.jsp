@@ -1,5 +1,4 @@
-Ôªø<!DOCTYPE html>
-<%@ taglib uri='http://java.sun.com/jsp/jstl/core' prefix='c' %>
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -10,7 +9,7 @@
 <body>
 
 <main>
-    <div>Ol√°, teste √ß√°√£√¥√©</div>
+    <div>Ol·, teste Á·„ÙÈ</div>
 </main>
 
 <script src="/js/jquery-3.3.1.min.js"></script>
