@@ -1,18 +1,120 @@
 @charset "UTF-8";
 
+.espaco{
+	margin: 100px;
+}
+
 .header{
 	display: flex;
+	padding: 1% 7%;
+	background-color: #4169E1;
 	justify-content: space-between;
-	align-itens: center;
 }
 
-.header-right{
+.header__right{
 	display: flex;
-	justify-content: space-between;
-	align-itens: center;
+    align-items: baseline;
+    width: 32%;
+    justify-content: flex-end;
 }
 
-.title:before{
-	content: url(/img/img1.jpg);
-	
+.title h1 img{
+	width: 200px;
+	height: 60px;
+}
+
+.subtitle{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	margin: 16px;
+	font-size: 18px;
+}
+
+.header__right p{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	margin: 16px;
+	font-size: 18px;
+}
+
+.header__right a{
+	font-family: "Open Sans", sans-serif;
+	font-weight: bolder;
+	color: #fff;
+	font-size: 18px;
+	background-color: #3CB371;
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.banner-principal{
+	width: 100%;
+	position: relative;
+}
+
+.footer__middle__table{
+	display: flex;
+	background-color: #f4f4f4;
+	justify-content: space-between;
+	color: #606060;
+	padding: 40px 65px;
+}
+
+.footer__middle__table__item__title{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	font-family: "Baloo", sans-serif;
+}
+
+.footer__middle__table__tags__item__label{
+	line-height: 17px;
+	text-transform: uppercase;
+	font-family: "Baloo", sans-serif;
+}
+
+.footer__middle__table__tags{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__middle__table__item__link a{
+	line-height: 24px;
+	font-size: 14px;
+	font-family: "Fira Sans", sans-serif;
+	color: #606060;
+}
+
+.footer__middle__table__tags__item{
+	display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer__middle__table__tags__item__label__icons{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+
+.footer__middle__table__tags__item__label__icons li{
+	margin-right: 25px;
+}
+
+.footer__bottom{
+	padding: 10px 65px;
+	background-color: #4169E1;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+.footer__bottom__partners{
+	display: flex;
+}
+
+a{
+	text-decoration: none;
 }
