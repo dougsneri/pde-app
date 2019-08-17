@@ -9,6 +9,8 @@
 </head>
 <body>
 	<main>
+<!-- 		Exemplo direto na JSP -->
+		<img class="img-fluid" src="/img/img1.jpg" alt="">
 		<header class="header">
 			<section class="title">
 				<h1>Limpaki</h1>

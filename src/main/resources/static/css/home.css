@@ -13,5 +13,6 @@
 }
 
 .title:before{
-	content: "Faz um exemplo aqui cachorro, chamando a imagem."
+	content: url(/img/img1.jpg);
+	
 }
