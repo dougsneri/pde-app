@@ -23,7 +23,119 @@
 			<a>Trabalhe conosco</a>
 		</section>
 	</header>
-	<img class="banner-principal" src="img/banner01.png"/>
+	<div>
+		<a class="banner-principal" href="#">
+			<img src="/img/empregada_banner.jpg"/>
+		</a>
+		<div class="banner-principal-text">
+			<h2 class="banner-principal-text-title">Está com dificuldades 
+			<br>
+			na limpeza?</h2>
+			<p class="banner-principal-text-info">Acabou de encontrou o site perfeito! 
+			<br/>
+			Estamos aqui para facilitar na contratação de uma profissional 
+			<br/>
+			de qualidade e principalmente de <strong>confiança</strong>!</p>
+		</div>
+	</div>
+	
+	<section class="carousel">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css" rel="stylesheet" /><script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
+            <section class="mais-pedidos">
+                <div class="container new-carroussel swiper-container swiper-container-horizontal swiper-container-ios">
+                    <div>
+                        <div class="text-carousel">
+                            <h2 class="title-carousel">Mais pedidos</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                            <div class="swiper-slide swiper-slide-active carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada01.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 01</p>
+                                    <p class="carousel-style carousel-subtitle">R$150,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                                </article>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next carousel-line">
+                               <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada02.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 02</p>
+                                    <p class="carousel-style carousel-subtitle">R$160,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                                </article>
+                           </div>
+                           <div class="swiper-slide carousel-line">
+                               <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada03.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 03</p>
+                                    <p class="carousel-style carousel-subtitle">R$280,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                              </article>
+                           </div>
+                           <div class="swiper-slide carousel-line">
+                               <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada04.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 04</p>
+                                    <p class="carousel-style carousel-subtitle">R$270,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                              </article>
+                            </div>
+                            <div class="swiper-slide carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada05.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 05</p>
+                                    <p class="carousel-style carousel-subtitle">R$260,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Ver Detalhes</a>
+                                    </center>
+                                </article>
+                            </div>
+                            <div class="swiper-slide carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada06.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 06</p>
+                                    <p class="carousel-style carousel-subtitle">R$250,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Ver Detalhes</a>
+                                    </center>
+                                </article>
+                            </div>
+                            <div class="swiper-slide carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada07.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 07</p>
+                                    <p class="carousel-style carousel-subtitle">R$240,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Ver Detalhes</a>
+                                    </center>
+                                </article>
+                            </div>
+                            <div class="swiper-slide carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada08.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 08</p>
+                                    <p class="carousel-style carousel-subtitle">R$230,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Ver Detalhes</a>
+                                    </center>
+                                </article>
+                            </div>
+                       </div>
+                <div class="swiper-button-prev btn-carousel"></div>
+                <div class="swiper-button-next btn-carousel"></div>
+                </div>
+            </div>
+        </section>
+    </section>
 	<footer class="footer">
 		<section class="footer__middle">
 			<div class="footer__middle__table">
@@ -99,7 +211,7 @@
 		</section>
 	</footer> </main>
 	<div class="pde-overlay"></div>
-
+	<script src="/js/carousel.js"></script>
 	<script src="/js/jquery-3.3.1.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 </body>

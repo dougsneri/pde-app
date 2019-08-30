@@ -49,9 +49,105 @@
 	border-radius: 8px;
 }
 
-.banner-principal{
+.banner-principal img{
 	width: 100%;
 	position: relative;
+}
+
+.banner-principal-text{
+	position: absolute;
+	transform: translate(-20%, -70%);
+	left: 60%;
+    top: 50%;
+    
+}
+
+.banner-principal-text-title{
+	font-size: 40px;
+	color: #4169E1;
+	text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.banner-principal-text-info{
+	font-size: 18px;
+	color: #606060;
+	text-align: center;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    line-height: 22px;
+}
+
+.banner-principal-text-info strong{
+	text-transform: uppercase;
+}
+
+.carousel{
+	padding: 40px 10px;
+}
+
+.carousel-image{
+	width: 250px;
+	height: 250px;
+}
+
+.btn-carousel{
+	margin-top: 10px !important;
+    width: 25px !important;
+    height: 30px !important;
+}
+
+.swiper-wrapper .carousel-line{
+	margin-right: 10px !important;
+	width: 320px !important;
+}
+
+.swiper-slide-active{
+	margin-left: 35px;
+}
+
+.title-carousel{
+    font-size: 24px;
+    color: #4169E1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.carousel-title{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: #4169E1;
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.carousel-subtitle{
+	color: #808080;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.carousel-comprar{
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	background: #3CB371;
+	display: block;
+	padding: 10px 0;
+	width: 70%;
+	border-radius: 8px;
+	text-transform: uppercase;
 }
 
 .footer__middle__table{
