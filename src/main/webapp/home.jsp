@@ -2,6 +2,7 @@
 
 <html>
 <head>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="/css/reset.css" />
 <link rel="stylesheet" type="text/css" href="/css/home.css" />
@@ -95,7 +96,7 @@
                                     <img class="carousel-image" src="/img/empregada05.jpg">
                                     <p class="carousel-style carousel-title">Empregada 05</p>
                                     <p class="carousel-style carousel-subtitle">R$260,00</p>
-                                    <a href="#" class="carousel-style carousel-comprar">Ver Detalhes</a>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
                             </div>
@@ -105,7 +106,7 @@
                                     <img class="carousel-image" src="/img/empregada06.jpg">
                                     <p class="carousel-style carousel-title">Empregada 06</p>
                                     <p class="carousel-style carousel-subtitle">R$250,00</p>
-                                    <a href="#" class="carousel-style carousel-comprar">Ver Detalhes</a>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
                             </div>
@@ -115,7 +116,7 @@
                                     <img class="carousel-image" src="/img/empregada07.jpg">
                                     <p class="carousel-style carousel-title">Empregada 07</p>
                                     <p class="carousel-style carousel-subtitle">R$240,00</p>
-                                    <a href="#" class="carousel-style carousel-comprar">Ver Detalhes</a>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
                             </div>
@@ -125,7 +126,7 @@
                                     <img class="carousel-image" src="/img/empregada08.jpg">
                                     <p class="carousel-style carousel-title">Empregada 08</p>
                                     <p class="carousel-style carousel-subtitle">R$230,00</p>
-                                    <a href="#" class="carousel-style carousel-comprar">Ver Detalhes</a>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
                             </div>
@@ -135,6 +136,44 @@
                 </div>
             </div>
         </section>
+    </section>
+    <section>
+    	<div class="banner-double">
+    		<div class="banner-double-title">
+    			<p>Recomendações</p>
+    		</div>
+    		<div class="banner-double-imagem">
+    			<div class="banner-double-imagem-left">
+    				<img src="/img/banner-double-01.jpg"/>
+    				<h3>Retirar a ferrugem de objetos</h3>
+    				<p>Alguns itens como talheres e grelhas podem enferrujar. Esfregue suco de limão com uma palha de aço.
+    				 E, se você acabar sujando a roupa com ferrugem, esfregue um pouco de suco de limão e sal para removê-la 
+    				 do tecido.</p>
+    			</div>
+    			<div class="banner-double-imagem-right">
+    				<img src="/img/banner-double-02.jpg"/>
+    				<h3>Remova gordura das louças</h3>
+    				<p>Adicione 1/4 de xícara de chá de limão direto no frasco de detergente ou diluído em água
+    				 e aplique a mistura sobre a louça engordurada.</p>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+    <section>
+    	<div class="text-seo">
+    		<div class="text-seo-title">
+    			<span class="text-seo-title-left"></span>
+    			<h1>Limpe Já</h1>
+    			<span class="text-seo-title-right"></span>
+    		</div>
+    		<div class="text-seo-text">
+    			<p>
+    				A Limpe Já nasceu há 1 ano, com o propósito de entregar um serviço doméstico e empresarial de qualidade e facilitar
+    				a comunicação entre contratantes e contratados. Temos como missão satisfazer o estado de São Paulo com os melhores 
+    				prestadores de serviços de limpeza e sempre deixar o nosso cliente tranquilo quanto a segurança de sua casa/empresa.
+    			</p>
+    		</div>
+    	</div>
     </section>
 	<footer class="footer">
 		<section class="footer__middle">

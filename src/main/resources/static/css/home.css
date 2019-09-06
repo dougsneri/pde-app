@@ -119,6 +119,8 @@
     justify-content: space-around;
     margin-bottom: 40px;
     text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
 }
 
 .carousel-title{
@@ -150,12 +152,154 @@
 	text-transform: uppercase;
 }
 
+.banner-double-title{
+	font-size: 24px;
+    color: #4169E1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner-double-imagem{
+	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.banner-double-imagem-left{
+	width: 100%;
+	margin-right: 20px;
+	position: relative;
+}
+
+.banner-double-imagem-left img{
+	height: 300px;
+	width: 100%;
+}
+
+.banner-double-imagem-left h3{
+	position: absolute;
+	transform: translate(6%, -1520%);
+	font-size: 18px;
+    color: #4169E1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner-double-imagem-left p{
+	position: absolute;
+    transform: translate(8%, -170%);
+    width: 50%;
+    font-size: 14px;
+    color: #606060;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    line-height: 22px;
+}
+
+.banner-double-imagem-right{
+	width: 100%;
+	position: relative;
+}
+
+.banner-double-imagem-right img{
+	height: 300px;
+	width: 100%;
+}
+
+.banner-double-imagem-right h3{
+	position: absolute;
+	transform: translate(95%, -1520%);
+	font-size: 18px;
+    color: #4169E1;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner-double-imagem-right p{
+	position: absolute;
+    transform: translate(95%, -260%);
+    width: 50%;
+    font-size: 14px;
+    color: #606060;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    line-height: 22px;
+}
+
+.text-seo-title{
+	margin: 100px 0 50px;
+}
+
+.text-seo-title h1{
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4169E1;
+	font-family: "Open Sans", sans-serif;
+	text-align: center;
+}
+
+.text-seo-title-left{
+	position: absolute;
+}
+
+.text-seo-title-right{
+	position: absolute;
+}
+
+.text-seo-title-left:after{
+	content: '';
+	height: 3px;
+	width: 100px;
+	background: #3CB371;
+	display: block;
+	position: absolute;
+	bottom: -15px;
+	left: 445px;
+}
+
+.text-seo-title-right:before{
+	content: '';
+	height: 3px;
+	width: 100px;
+	background: #3CB371;
+	display: block;
+	position: absolute;
+	bottom: 13px;
+	left: 807px;
+}
+
+.text-seo-text{
+	text-align: center;
+	display: block;
+	margin-bottom: 100px;
+	padding: 0 10%;
+}
+
+.text-seo-text p{
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	color: #606060;
+	line-height: 20px;
+}
+
 .footer__middle__table{
 	display: flex;
 	background-color: #f4f4f4;
 	justify-content: space-between;
 	color: #606060;
-	padding: 40px 65px;
+	padding: 2% 10%;
 }
 
 .footer__middle__table__item__title{
@@ -200,7 +344,7 @@
 }
 
 .footer__bottom{
-	padding: 10px 65px;
+	padding: 2% 10%;
 	background-color: #4169E1;
 	color: #fff;
 	font-family: "Open Sans", sans-serif;
