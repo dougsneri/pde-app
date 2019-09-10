@@ -1,0 +1,120 @@
+.register__title {
+	text-align: center;
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4169E1;
+	font-family: "Open Sans", sans-serif;
+	margin: 40px 0;
+}
+
+.register__option{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.register__option label{
+	display: flex;
+    margin: 5px 22px 0 0;
+    color: #4169E1;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.register__option label input{
+	width: 18px;
+    height: 18px;
+    border: 2px solid #4169E1;
+    border-radius: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px 0 0;
+}
+
+.register__option label input + input{
+	margin-left: 12px;
+}
+
+.register__option label input:checked:after{
+	content: "";
+    width: 8px;
+    height: 8px;
+    background: #4169E1;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.register__content{
+	padding: 3% 20%;
+}
+
+.register__content p{
+	font-size: 16px;
+	color: #4169E1;
+	font-family: "Open Sans", sans-serif;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+.register__content__text{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+}
+
+.register__content__text input{
+	width: 70%;
+}
+
+.register__gender p{
+	font-size: 16px;
+	color: #4169E1;
+	font-family: "Open Sans", sans-serif;
+	margin-right: 20px;
+	font-weight: 700;
+}
+
+.register__gender{
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.register__gender label{
+	display: flex;
+    color: #606060;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-left: 64%;
+}
+
+.register__gender label input{
+	width: 12px;
+    height: 12px;
+    border: 2px solid #4169E1;
+    border-radius: 18px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px 0 0;
+}
+
+.register__gender label input + input{
+	margin-left: 12px;
+}
+
+.register__gender label input:checked:after{
+	content: "";
+    width: 4px;
+    height: 4px;
+    background: #606060;
+    border-radius: 8px;
+    position: absolute;
+}

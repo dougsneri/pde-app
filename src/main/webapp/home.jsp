@@ -19,9 +19,13 @@
 			<h2>Empresa especializada em serviços domésticos</h2>
 		</section>
 		<section class="header__right">
-			<p>Dúvidas</p>
-			<p>Entrar</p>
-			<a>Trabalhe conosco</a>
+			<a href="#">
+				<p>Dúvidas</p>
+			</a>
+			<a href="#">
+				<p>Entrar</p>
+			</a>
+			<a class="header__right_trabalhe" href="./cadastro.jsp">Trabalhe conosco</a>
 		</section>
 	</header>
 	<div>
@@ -42,11 +46,11 @@
 	
 	<section class="carousel">
             <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css" rel="stylesheet" /><script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
-            <section class="mais-pedidos">
+            <section class="limpeza-geral">
                 <div class="container new-carroussel swiper-container swiper-container-horizontal swiper-container-ios">
                     <div>
                         <div class="text-carousel">
-                            <h2 class="title-carousel">Mais pedidos</h2>
+                            <h2 class="title-carousel">Limpeza Geral</h2>
                         </div>
                     </div>
                     <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
@@ -55,7 +59,7 @@
                                     <center>
                                     <img class="carousel-image" src="/img/empregada01.jpg">
                                     <p class="carousel-style carousel-title">Empregada 01</p>
-                                    <p class="carousel-style carousel-subtitle">R$150,00</p>
+                                    <p class="carousel-style carousel-subtitle">R$100,00</p>
                                     <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
@@ -65,7 +69,7 @@
                                     <center>
                                     <img class="carousel-image" src="/img/empregada02.jpg">
                                     <p class="carousel-style carousel-title">Empregada 02</p>
-                                    <p class="carousel-style carousel-subtitle">R$160,00</p>
+                                    <p class="carousel-style carousel-subtitle">R$90,00</p>
                                     <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
@@ -75,7 +79,7 @@
                                     <center>
                                     <img class="carousel-image" src="/img/empregada03.jpg">
                                     <p class="carousel-style carousel-title">Empregada 03</p>
-                                    <p class="carousel-style carousel-subtitle">R$280,00</p>
+                                    <p class="carousel-style carousel-subtitle">R$80,00</p>
                                     <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                               </article>
@@ -85,7 +89,7 @@
                                     <center>
                                     <img class="carousel-image" src="/img/empregada04.jpg">
                                     <p class="carousel-style carousel-title">Empregada 04</p>
-                                    <p class="carousel-style carousel-subtitle">R$270,00</p>
+                                    <p class="carousel-style carousel-subtitle">R$110,00</p>
                                     <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                               </article>
@@ -95,7 +99,7 @@
                                     <center>
                                     <img class="carousel-image" src="/img/empregada05.jpg">
                                     <p class="carousel-style carousel-title">Empregada 05</p>
-                                    <p class="carousel-style carousel-subtitle">R$260,00</p>
+                                    <p class="carousel-style carousel-subtitle">R$115,00</p>
                                     <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
@@ -105,7 +109,7 @@
                                     <center>
                                     <img class="carousel-image" src="/img/empregada06.jpg">
                                     <p class="carousel-style carousel-title">Empregada 06</p>
-                                    <p class="carousel-style carousel-subtitle">R$250,00</p>
+                                    <p class="carousel-style carousel-subtitle">R$105,00</p>
                                     <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
@@ -115,7 +119,7 @@
                                     <center>
                                     <img class="carousel-image" src="/img/empregada07.jpg">
                                     <p class="carousel-style carousel-title">Empregada 07</p>
-                                    <p class="carousel-style carousel-subtitle">R$240,00</p>
+                                    <p class="carousel-style carousel-subtitle">R$99,90</p>
                                     <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
@@ -125,7 +129,7 @@
                                     <center>
                                     <img class="carousel-image" src="/img/empregada08.jpg">
                                     <p class="carousel-style carousel-title">Empregada 08</p>
-                                    <p class="carousel-style carousel-subtitle">R$230,00</p>
+                                    <p class="carousel-style carousel-subtitle">R$85,00</p>
                                     <a href="#" class="carousel-style carousel-comprar">Contratar</a>
                                     </center>
                                 </article>
@@ -159,6 +163,103 @@
     		</div>
     	</div>
     </section>
+    <section class="carousel">
+            <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css" rel="stylesheet" /><script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
+            <section class="limpeza-empresarial">
+                <div class="container new-carroussel swiper-container swiper-container-horizontal swiper-container-ios">
+                    <div>
+                        <div class="text-carousel">
+                            <h2 class="title-carousel">Limpeza Empresarial</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                            <div class="swiper-slide swiper-slide-active carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada08.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 01</p>
+                                    <p class="carousel-style carousel-subtitle">R$120,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                                </article>
+                            </div>
+                            <div class="swiper-slide swiper-slide-next carousel-line">
+                               <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada06.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 02</p>
+                                    <p class="carousel-style carousel-subtitle">R$125,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                                </article>
+                           </div>
+                           <div class="swiper-slide carousel-line">
+                               <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada05.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 03</p>
+                                    <p class="carousel-style carousel-subtitle">R$115,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                              </article>
+                           </div>
+                           <div class="swiper-slide carousel-line">
+                               <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada07.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 04</p>
+                                    <p class="carousel-style carousel-subtitle">R$110,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                              </article>
+                            </div>
+                            <div class="swiper-slide carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada02.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 05</p>
+                                    <p class="carousel-style carousel-subtitle">R$150,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                                </article>
+                            </div>
+                            <div class="swiper-slide carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada03.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 06</p>
+                                    <p class="carousel-style carousel-subtitle">R$130,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                                </article>
+                            </div>
+                            <div class="swiper-slide carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada01.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 07</p>
+                                    <p class="carousel-style carousel-subtitle">R$135,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                                </article>
+                            </div>
+                            <div class="swiper-slide carousel-line">
+                                <article>
+                                    <center>
+                                    <img class="carousel-image" src="/img/empregada04.jpg">
+                                    <p class="carousel-style carousel-title">Empregada 08</p>
+                                    <p class="carousel-style carousel-subtitle">R$120,00</p>
+                                    <a href="#" class="carousel-style carousel-comprar">Contratar</a>
+                                    </center>
+                                </article>
+                            </div>
+                       </div>
+                <div class="swiper-button-prev btn-carousel"></div>
+                <div class="swiper-button-next btn-carousel"></div>
+                </div>
+            </div>
+        </section>
+    </section>
     <section>
     	<div class="text-seo">
     		<div class="text-seo-title">
@@ -168,9 +269,11 @@
     		</div>
     		<div class="text-seo-text">
     			<p>
-    				A Limpe Já nasceu há 1 ano, com o propósito de entregar um serviço doméstico e empresarial de qualidade e facilitar
-    				a comunicação entre contratantes e contratados. Temos como missão satisfazer o estado de São Paulo com os melhores 
-    				prestadores de serviços de limpeza e sempre deixar o nosso cliente tranquilo quanto a segurança de sua casa/empresa.
+    				A Limpe Já nasceu há 1 ano, com o propósito de entregar um serviço doméstico e empresarial de qualidade para facilitar
+    				a comunicação entre contratantes e contratados.  Acreditamos e trabalhamos para que você tenha em suas mãos a melhor 
+    				escolha de uma diarista com qualidade, profissionalidade e confiabilidade que só nós temos. Aqui você escolhe o que 
+    				te atende da melhor forma: diaristas domésticas e diaristas empresariais. Com a garantia Limpe Já tudo fica mais fácil 
+    				e confiável, qualquer problema entre em contato pela plataforma e nos informe o seu problema que será um prazer atendê-lo.
     			</p>
     		</div>
     	</div>
