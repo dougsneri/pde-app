@@ -9,6 +9,14 @@
 	padding: 1% 7%;
 	background-color: #4169E1;
 	justify-content: space-between;
+	width: 86%;
+	position: fixed;
+	z-index: 9;
+	top: 0;
+}
+
+.banner{
+	padding-top: 89px;
 }
 
 .header__right{
@@ -18,7 +26,7 @@
     justify-content: flex-end;
 }
 
-.title h1 img{
+.title img{
 	width: 200px;
 	height: 60px;
 }

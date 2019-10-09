@@ -1,0 +1,76 @@
+function cadastroJs() {
+	$('.register__option input').click(function () {
+		if($('input:checked').val() == 'diarista'){
+			$('.register__content__text__cpf').removeClass("is--active");
+			$('.register__content__text__name').removeClass("is--active");
+			$('.register__content__text__dtnasc').removeClass("is--active");
+			$('.register__content__text__gender').removeClass("is--active");
+			$('.register__content__text__email').removeClass("is--active");
+			$('.register__content__text__cemail').removeClass("is--active");
+			$('.register__content__text__cel').removeClass("is--active");
+			$('.register__content__text__cep').removeClass("is--active");
+			$('.register__content__text__rua').removeClass("is--active");
+			$('.register__content__text__num').removeClass("is--active");
+			$('.register__content__text__comple').removeClass("is--active");
+			$('.register__content__text__bairro').removeClass("is--active");
+			$('.register__content__text__city').removeClass("is--active");
+			$('.register__content__text__state').removeClass("is--active");
+			$('.register__content__text__pass').removeClass("is--active");
+			setTimeout(function () {
+				$('.register__content__text__cpf').addClass("is--active");
+				$('.register__content__text__name').addClass("is--active");
+				$('.register__content__text__dtnasc').addClass("is--active");
+				$('.register__content__text__gender').addClass("is--active");
+				$('.register__content__text__email').addClass("is--active");
+				$('.register__content__text__cemail').addClass("is--active");
+				$('.register__content__text__cel').addClass("is--active");
+				$('.register__content__text__cep').addClass("is--active");
+				$('.register__content__text__rua').addClass("is--active");
+				$('.register__content__text__num').addClass("is--active");
+				$('.register__content__text__comple').addClass("is--active");
+				$('.register__content__text__bairro').addClass("is--active");
+				$('.register__content__text__city').addClass("is--active");
+				$('.register__content__text__state').addClass("is--active");
+				$('.register__content__text__pass').addClass("is--active");
+			}, 1)
+		}
+		if($('input:checked').val() == 'contratante'){
+			$('.register__content__text__cpf').removeClass("is--active");
+			$('.register__content__text__name').removeClass("is--active");
+			$('.register__content__text__dtnasc').removeClass("is--active");
+			$('.register__content__text__gender').removeClass("is--active");
+			$('.register__content__text__email').removeClass("is--active");
+			$('.register__content__text__cemail').removeClass("is--active");
+			$('.register__content__text__cel').removeClass("is--active");
+			$('.register__content__text__cep').removeClass("is--active");
+			$('.register__content__text__rua').removeClass("is--active");
+			$('.register__content__text__num').removeClass("is--active");
+			$('.register__content__text__comple').removeClass("is--active");
+			$('.register__content__text__bairro').removeClass("is--active");
+			$('.register__content__text__city').removeClass("is--active");
+			$('.register__content__text__state').removeClass("is--active");
+			$('.register__content__text__pass').removeClass("is--active");
+			setTimeout(function() {
+				$('.register__content__text__cpf').addClass("is--active");
+				$('.register__content__text__name').addClass("is--active");
+				$('.register__content__text__dtnasc').addClass("is--active");
+				$('.register__content__text__gender').addClass("is--active");
+				$('.register__content__text__email').addClass("is--active");
+				$('.register__content__text__cemail').addClass("is--active");
+				$('.register__content__text__cel').addClass("is--active");
+				$('.register__content__text__cep').addClass("is--active");
+				$('.register__content__text__rua').addClass("is--active");
+				$('.register__content__text__num').addClass("is--active");
+				$('.register__content__text__comple').addClass("is--active");
+				$('.register__content__text__bairro').addClass("is--active");
+				$('.register__content__text__city').addClass("is--active");
+				$('.register__content__text__state').addClass("is--active");
+				$('.register__content__text__pass').addClass("is--active");
+			},1)
+		}
+	})
+}
+
+$(document).ready(function () {
+	cadastroJs();
+})

@@ -6,6 +6,7 @@
 	content="initial-scale=1, maximum-scale=1, user-scalable=no" />
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/produto.css" />
 <link rel="stylesheet" type="text/css" href="/css/home.css" />
 <title>Home</title>
 </head>
@@ -27,21 +28,40 @@
 				conosco</a>
 		</section>
 	</header>
-	<div class="banner">
-		<a class="banner-principal" href="#"> <img
-			src="/img/empregada_banner.jpg" />
-		</a>
-		<div class="banner-principal-text">
-			<h2 class="banner-principal-text-title">
-				Está com dificuldades <br> na limpeza?
-			</h2>
-			<p class="banner-principal-text-info">
-				Acabou de encontrou o site perfeito! <br /> Estamos aqui para
-				facilitar na contratação de uma profissional <br /> de qualidade e
-				principalmente de <strong>confiança</strong>!
-			</p>
-		</div>
-	</div>
+
+	<section class="produto">
+		<section class="produto-container">
+			<section class="produto-container-left">
+				<img src="/img/empregada07.jpg" />
+			</section>
+			<section class="produto-container-right">
+				<section class="produto-container-right-title">
+					<p>Empregada 07</p>
+				</section>
+				<section class="produto-container-right-price">
+					<p>R$ 99,90</p>
+				</section>
+				<section class="produto-container-right-btn-buy">
+					<a href="#">Contratar</a>
+				</section>
+			</section>
+		</section>
+		<section class="produto-container-description">
+			<section class="produto-container-description-title">
+				<p>Descrição</p>
+			</section>
+			<section class="produto-container-description-text">
+				<p>Olá, sou a empregada 07 e estou com as terças, quartas e
+					quinta livres para trabalhar! Tenho mais de 24 anos como diarista e
+					tenho muito orgulho do meu trabalho. Como pode ver tenho uma
+					avaliação muito boa pelas casas que já trabalhei e tenho muitos
+					comentários em meu perfil que não me deixam mentir! <br> Sou
+					especialista em serviços domésticos, desde lavar o quintal até
+					passar roupas.<br> Caso tenha interesse, me contrate para trabalhar em
+					sua residência agora mesmo!</p>
+			</section>
+		</section>
+	</section>
 
 	<section class="carousel">
 		<link
@@ -125,7 +145,7 @@
 								<img class="carousel-image" src="/img/empregada07.jpg">
 								<p class="carousel-style carousel-title">Empregada 07</p>
 								<p class="carousel-style carousel-subtitle">R$ 99,90</p>
-								<a href="./produto.jsp" class="carousel-style carousel-comprar">Contratar</a>
+								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
 						</article>
 					</div>
@@ -135,133 +155,6 @@
 								<img class="carousel-image" src="/img/empregada08.jpg">
 								<p class="carousel-style carousel-title">Empregada 08</p>
 								<p class="carousel-style carousel-subtitle">R$ 85,00</p>
-								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
-							</center>
-						</article>
-					</div>
-				</div>
-				<div class="swiper-button-prev btn-carousel"></div>
-				<div class="swiper-button-next btn-carousel"></div>
-			</div>
-			</div>
-		</section>
-	</section>
-	<section>
-		<div class="banner-double">
-			<div class="banner-double-title">
-				<p>Recomendações</p>
-			</div>
-			<div class="banner-double-imagem">
-				<div class="banner-double-imagem-left">
-					<img src="/img/banner-double-01.jpg" />
-					<h3>Retirar a ferrugem de objetos</h3>
-					<p>Alguns itens como talheres e grelhas podem enferrujar.
-						Esfregue suco de limão com uma palha de aço. E, se você acabar
-						sujando a roupa com ferrugem, esfregue um pouco de suco de limão e
-						sal para removê-la do tecido.</p>
-				</div>
-				<div class="banner-double-imagem-right">
-					<img src="/img/banner-double-02.jpg" />
-					<h3>Remova gordura das louças</h3>
-					<p>Adicione 1/4 de xícara de chá de limão direto no frasco de
-						detergente ou diluído em água e aplique a mistura sobre a louça
-						engordurada.</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="carousel">
-		<link
-			href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css"
-			rel="stylesheet" />
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
-		<section class="limpeza-empresarial">
-			<div
-				class="container new-carroussel swiper-container swiper-container-horizontal swiper-container-ios">
-				<div>
-					<div class="text-carousel">
-						<h2 class="title-carousel">Limpeza Empresarial</h2>
-					</div>
-				</div>
-				<div class="swiper-wrapper"
-					style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
-					<div class="swiper-slide swiper-slide-active carousel-line">
-						<article>
-							<center>
-								<img class="carousel-image" src="/img/empregada08.jpg">
-								<p class="carousel-style carousel-title">Empregada 01</p>
-								<p class="carousel-style carousel-subtitle">R$ 120,00</p>
-								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
-							</center>
-						</article>
-					</div>
-					<div class="swiper-slide swiper-slide-next carousel-line">
-						<article>
-							<center>
-								<img class="carousel-image" src="/img/empregada06.jpg">
-								<p class="carousel-style carousel-title">Empregada 02</p>
-								<p class="carousel-style carousel-subtitle">R$ 125,00</p>
-								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
-							</center>
-						</article>
-					</div>
-					<div class="swiper-slide carousel-line">
-						<article>
-							<center>
-								<img class="carousel-image" src="/img/empregada05.jpg">
-								<p class="carousel-style carousel-title">Empregada 03</p>
-								<p class="carousel-style carousel-subtitle">R$ 115,00</p>
-								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
-							</center>
-						</article>
-					</div>
-					<div class="swiper-slide carousel-line">
-						<article>
-							<center>
-								<img class="carousel-image" src="/img/empregada07.jpg">
-								<p class="carousel-style carousel-title">Empregada 04</p>
-								<p class="carousel-style carousel-subtitle">R$ 110,00</p>
-								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
-							</center>
-						</article>
-					</div>
-					<div class="swiper-slide carousel-line">
-						<article>
-							<center>
-								<img class="carousel-image" src="/img/empregada02.jpg">
-								<p class="carousel-style carousel-title">Empregada 05</p>
-								<p class="carousel-style carousel-subtitle">R$ 150,00</p>
-								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
-							</center>
-						</article>
-					</div>
-					<div class="swiper-slide carousel-line">
-						<article>
-							<center>
-								<img class="carousel-image" src="/img/empregada03.jpg">
-								<p class="carousel-style carousel-title">Empregada 06</p>
-								<p class="carousel-style carousel-subtitle">R$ 130,00</p>
-								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
-							</center>
-						</article>
-					</div>
-					<div class="swiper-slide carousel-line">
-						<article>
-							<center>
-								<img class="carousel-image" src="/img/empregada01.jpg">
-								<p class="carousel-style carousel-title">Empregada 07</p>
-								<p class="carousel-style carousel-subtitle">R$ 135,00</p>
-								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
-							</center>
-						</article>
-					</div>
-					<div class="swiper-slide carousel-line">
-						<article>
-							<center>
-								<img class="carousel-image" src="/img/empregada04.jpg">
-								<p class="carousel-style carousel-title">Empregada 08</p>
-								<p class="carousel-style carousel-subtitle">R$ 120,00</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
 						</article>

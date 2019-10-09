@@ -13,9 +13,8 @@
 <body>
 	<main> <header class="header">
 		<section class="title">
-			<h1>
-				<img src="/img/logo-provisorio.png" />
-			</h1>
+			<a href="/"> <img src="/img/logo-provisorio.png" />
+			</a>
 		</section>
 		<section class="subtitle">
 			<h2>Empresa especializada em serviços domésticos</h2>
@@ -38,68 +37,68 @@
 			</label>
 		</div>
 		<div class="register__content">
-			<div class="register__content__text">
+			<div class="register__content__text__cpf">
 				<p>CPF</p>
 				<input placeholder="CPF" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__name">
 				<p>Nome Completo</p>
 				<input placeholder="Nome Completo" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__dtnasc">
 				<p>Data de nascimento</p>
 				<input placeholder="Data de Nascimento" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__email">
 				<p>E-mail</p>
 				<input placeholder="E-mail" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__cemail">
 				<p>Confirme seu e-mail</p>
 				<input placeholder="Confirme seu e-mail" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__cep">
 				<p>CEP</p>
 				<input placeholder="CEP" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__rua">
 				<p>Nome da rua</p>
 				<input placeholder="Rua" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__num">
 				<p>Número</p>
 				<input placeholder="Número" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__comple">
 				<p>Complemento (opcional)</p>
 				<input placeholder="Complemento" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__bairro">
 				<p>Bairro</p>
 				<input placeholder="Bairro" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__city">
 				<p>Cidade</p>
 				<input placeholder="Cidade" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__state">
 				<p>Estado</p>
 				<input placeholder="Estado" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__cel">
 				<p>Celular</p>
 				<input placeholder="Celular" />
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__gender">
 				<div class="register__gender">
 					<p>Gênero</p>
-					<label for="type"> <input type="radio" value="diarista"
-						name="type" /> Feminino <input type="radio" value="contratante"
+					<label for="type"> <input type="radio" value="feminino"
+						name="type" /> Feminino <input type="radio" value="masculino"
 						name="type" /> Masculino
 					</label>
 				</div>
 			</div>
-			<div class="register__content__text">
+			<div class="register__content__text__pass">
 				<p>Senha</p>
 				<input placeholder="Senha" />
 			</div>
@@ -110,18 +109,18 @@
 		<div class="text-seo">
 			<div class="text-seo-title">
 				<span class="text-seo-title-left"></span>
-				<h1>Limpe Já</h1>
+				<h1>Limpe Aí</h1>
 				<span class="text-seo-title-right"></span>
 			</div>
 			<div class="text-seo-text">
-				<p>A Limpe Já nasceu há 1 ano, com o propósito de entregar um
+				<p>A Limpe Aí nasceu há 1 ano, com o propósito de entregar um
 					serviço doméstico e empresarial de qualidade para facilitar a
 					comunicação entre contratantes e contratados. Acreditamos e
 					trabalhamos para que você tenha em suas mãos a melhor escolha de
 					uma diarista com qualidade, profissionalidade e confiabilidade que
 					só nós temos. Aqui você escolhe o que te atende da melhor forma:
 					diaristas domésticas e diaristas empresariais. Com a garantia Limpe
-					Já tudo fica mais fácil e confiável, qualquer problema entre em
+					Aí tudo fica mais fácil e confiável, qualquer problema entre em
 					contato pela plataforma e nos informe o seu problema que será um
 					prazer atendê-lo.</p>
 			</div>
@@ -199,14 +198,14 @@
 		</section>
 		<section class="footer__bottom">
 			<div class="footer__bottom__copy">
-				<p>Equipe Limpe Já e Associados. CNPJ 05.368.191/0001-62 - Av.
+				<p>Equipe Limpe Aí e Associados. CNPJ 05.368.191/0001-62 - Av.
 					José Maria de Faria, 111 - Lapa - São Paulo/SP - Brasil</p>
 			</div>
 		</section>
 	</footer> </main>
 	<div class="pde-overlay"></div>
-	<script src="/js/carousel.js"></script>
 	<script src="/js/jquery-3.3.1.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/cadastro.js"></script>
 </body>
 </html>

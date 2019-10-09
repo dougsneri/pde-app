@@ -1,3 +1,7 @@
+.register {
+	padding-top: 89px;
+}
+
 .register__title {
 	text-align: center;
 	font-size: 28px;
@@ -53,23 +57,297 @@
 	padding: 3% 20%;
 }
 
+.register__content__text__cpf {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	opacity: 0;
+	visibility: hidden;
+	display: flex;
+}
+
+.register__content__text__cpf.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__cpf input{
+	width: 70%;
+}
+
+.register__content__text__name {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__name.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__name input{
+	width: 70%;
+}
+
+.register__content__text__dtnasc {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__dtnasc.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__dtnasc input{
+	width: 70%;
+}
+
+.register__content__text__email {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__email.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__email input{
+	width: 70%;
+}
+
+.register__content__text__cemail {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__cemail.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__cemail input{
+	width: 70%;
+}
+
+.register__content__text__cep {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__cep.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__cep input{
+	width: 70%;
+}
+
+.register__content__text__rua {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__rua.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__rua input{
+	width: 70%;
+}
+
+.register__content__text__num {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__num.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__num input{
+	width: 70%;
+}
+
+.register__content__text__comple {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__comple.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__comple input{
+	width: 70%;
+}
+
+.register__content__text__bairro {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__bairro.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__bairro input{
+	width: 70%;
+}
+
+.register__content__text__city {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__city.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__city input{
+	width: 70%;
+}
+
+.register__content__text__state {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__state.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__state input{
+	width: 70%;
+}
+
+.register__content__text__cel {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__cel.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__cel input{
+	width: 70%;
+}
+
+.register__content__text__gender {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 1;
+	visibility: visible;
+}
+
+.register__content__text__gender.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__gender input{
+	width: 70%;
+}
+
+.register__content__text__pass {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: flex;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__pass.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__text__pass input{
+	width: 70%;
+}
+
 .register__content p{
 	font-size: 16px;
 	color: #4169E1;
 	font-family: "Open Sans", sans-serif;
 	margin-right: 20px;
 	font-weight: 700;
-}
-
-.register__content__text{
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	margin: 20px 0;
-}
-
-.register__content__text input{
-	width: 70%;
 }
 
 .register__gender p{
