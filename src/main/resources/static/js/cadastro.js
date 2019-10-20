@@ -72,8 +72,8 @@ function cadastroJs() {
 }
 
 function montaSelectPrestadores() {
-	var prestadoresSelect = document.getElementById("prestadores-select");
-	var xhttp = new XMLHttpRequest();
+	let prestadoresSelect = document.getElementById("prestadores-select");
+	let xhttp = new XMLHttpRequest();
 	
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
@@ -94,7 +94,27 @@ function montaSelectPrestadores() {
 	xhttp.send();
 }
 
+function montaSelectContratantes() {
+	let contratantesSelect = document.getElementById("contratantes-select");
+	
+	$.get("https://localhost:8081/contratantes/listar", function(resultado){
+		let listaContratantes = resultado;
+		
+		for(contratante of listaContratantes) {
+			let elementForAdd = document.createElement("option");
+			let nomeSobrenome = contratante.nome + " " + contratante.sobrenome;
+			
+			elementForAdd.value = nomeSobrenome;
+			elementForAdd.text = nomeSobrenome;
+			
+			contratantesSelect.add(elementForAdd, contratantesSelect.options[0]);
+		}
+	});
+	
+}
+
 $(document).ready(function () {
 	cadastroJs();
 	montaSelectPrestadores();
+	montaSelectContratantes();
 })

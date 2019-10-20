@@ -103,8 +103,12 @@
 				<input placeholder="Senha" />
 			</div>
 			<div class="register__content__text__pass">
-				<p>Prestadores Já Cadastrados</p>
+				<p>Prestadores já cadastrados</p>
 				<select id="prestadores-select"></select>
+			</div>
+			<div class="register__content__text__pass">
+				<p>Contratantes já cadastrados</p>
+				<select id="contratantes-select"></select>
 			</div>
 		</div>
 	</div>
