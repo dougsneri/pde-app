@@ -71,6 +71,30 @@ function cadastroJs() {
 	})
 }
 
+function montaSelectPrestadores() {
+	var prestadoresSelect = document.getElementById("prestadores-select");
+	var xhttp = new XMLHttpRequest();
+	
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			let listaPrestadores = JSON.parse(this.responseText);
+			
+			for(prestador of listaPrestadores) {
+				let elementForAdd = document.createElement("option");
+				let nomeSobrenome = prestador.nome + " " + prestador.sobrenome;
+				
+				elementForAdd.value = nomeSobrenome;
+				elementForAdd.text = nomeSobrenome;
+				
+				prestadoresSelect.add(elementForAdd, prestadoresSelect.options[0]);
+			}
+		}
+	};
+	xhttp.open("GET", "https://localhost:8081/prestadores/listar", true);
+	xhttp.send();
+}
+
 $(document).ready(function () {
 	cadastroJs();
+	montaSelectPrestadores();
 })

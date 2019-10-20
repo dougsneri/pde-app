@@ -338,7 +338,11 @@
 	transition: ease-in .5s;
 }
 
-.register__content__text__pass input{
+.register__content__text__pass input {
+	width: 70%;
+}
+
+.register__content__text__pass select {
 	width: 70%;
 }
 
