@@ -90,14 +90,14 @@ function montaSelectPrestadores() {
 			}
 		}
 	};
-	xhttp.open("GET", "https://localhost:8081/prestadores/listar", true);
+	xhttp.open("GET", "http://localhost:8081/prestadores/listar", true);
 	xhttp.send();
 }
 
 function montaSelectContratantes() {
 	let contratantesSelect = document.getElementById("contratantes-select");
 	
-	$.get("https://localhost:8081/contratantes/listar", function(resultado){
+	$.get("http://localhost:8081/contratantes/listar", function(resultado){
 		let listaContratantes = resultado;
 		
 		for(contratante of listaContratantes) {
