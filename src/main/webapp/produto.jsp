@@ -44,10 +44,26 @@
 						<li>Pacote Premium</li>
 					</ul>
 					<ul class="produto-container-right-list-bottom">
-						<li>Limpeza Doméstica</li>
-						<li>Limpeza Geral</li>
-						<li>Faxina</li>
-						<li>Limpeza Empresarial</li>
+						<li>
+							<p>Limpeza Doméstica</p>
+							<img src="/img/tem.png"/>
+							<img src="/img/tem.png"/>
+						</li>
+						<li>
+							<p>Limpeza Geral</p>
+							<img src="/img/nao-tem.png"/>
+							<img src="/img/tem.png"/>
+						</li>
+						<li>
+							<p>Faxina</p>
+							<img src="/img/tem.png"/>
+							<img src="/img/tem.png"/>
+						</li>
+						<li>
+							<p>Limpeza Empresarial</p>
+							<img src="/img/nao-tem.png"/>
+							<img src="/img/tem.png"/>
+						</li>
 					</ul>
 				</section>
 				<section class="produto-container-right-price">

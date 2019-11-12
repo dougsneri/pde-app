@@ -100,6 +100,17 @@
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #707070;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.produto-container-right-list ul li p {
+	width: 210px;
+}
+
+.produto-container-right-list ul li img {
+	margin-right: 80px;
 }
 
 .produto-container-right-list-top li:first-child{
