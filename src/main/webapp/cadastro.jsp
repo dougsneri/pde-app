@@ -110,6 +110,10 @@
 				<p>Contratantes já cadastrados</p>
 				<select id="contratantes-select"></select>
 			</div>
+			<div class="register__content__buttons">
+				<a href="/">Voltar</a>
+				<a class="register__buttons__add">Finalizar cadastro</a>
+			</div>
 		</div>
 	</div>
 

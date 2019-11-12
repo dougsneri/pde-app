@@ -309,8 +309,8 @@
 	justify-content: space-between;
 	margin: 20px 0;
 	display: flex;
-	opacity: 1;
-	visibility: visible;
+	opacity: 0;
+	visibility: hidden;
 }
 
 .register__content__text__gender.is--active {
@@ -344,6 +344,34 @@
 
 .register__content__text__pass select {
 	width: 70%;
+}
+
+.register__content__buttons{
+	text-align: center;
+	opacity: 0;
+    visibility: hidden;
+    margin: 40px 0px;
+}
+
+.register__content__buttons.is--active{
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+}
+
+.register__content__buttons a{
+	font-family: "Open Sans", sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 18px;
+    background-color: #818181;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.register__content__buttons .register__buttons__add{
+	margin-left: 50px;
+	background-color: #3CB371;
 }
 
 .register__content p{

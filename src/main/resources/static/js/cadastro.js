@@ -16,6 +16,7 @@ function cadastroJs() {
 			$('.register__content__text__city').removeClass("is--active");
 			$('.register__content__text__state').removeClass("is--active");
 			$('.register__content__text__pass').removeClass("is--active");
+			$('.register__content__buttons').removeClass("is--active");
 			setTimeout(function () {
 				$('.register__content__text__cpf').addClass("is--active");
 				$('.register__content__text__name').addClass("is--active");
@@ -32,6 +33,7 @@ function cadastroJs() {
 				$('.register__content__text__city').addClass("is--active");
 				$('.register__content__text__state').addClass("is--active");
 				$('.register__content__text__pass').addClass("is--active");
+				$('.register__content__buttons').addClass("is--active");
 			}, 1)
 		}
 		if($('input:checked').val() == 'contratante'){
@@ -50,6 +52,7 @@ function cadastroJs() {
 			$('.register__content__text__city').removeClass("is--active");
 			$('.register__content__text__state').removeClass("is--active");
 			$('.register__content__text__pass').removeClass("is--active");
+			$('.register__content__buttons').removeClass("is--active");
 			setTimeout(function() {
 				$('.register__content__text__cpf').addClass("is--active");
 				$('.register__content__text__name').addClass("is--active");
@@ -66,6 +69,7 @@ function cadastroJs() {
 				$('.register__content__text__city').addClass("is--active");
 				$('.register__content__text__state').addClass("is--active");
 				$('.register__content__text__pass').addClass("is--active");
+				$('.register__content__buttons').addClass("is--active");
 			},1)
 		}
 	})
@@ -110,7 +114,6 @@ function montaSelectContratantes() {
 			contratantesSelect.add(elementForAdd, contratantesSelect.options[0]);
 		}
 	});
-	
 }
 
 $(document).ready(function () {
