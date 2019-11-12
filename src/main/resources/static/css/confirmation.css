@@ -1,0 +1,167 @@
+.confirmation__top{
+	padding: 7% 10%;
+}
+
+.confirmation__top > p{
+	color: #707070;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Open Sans, sans-serif;
+    margin: 30px 0;
+}
+
+.confirmation__top__box{
+	background: #fff;
+    border: 2px solid #3CB371;
+    width: 730px;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+.confirmation__top__box strong {
+	color: #707070;
+    font-size: 20px;
+    font-weight: 700;
+ 	font-family: Open Sans, sans-serif;
+}
+
+.confirmation__top__box p {
+	color: #707070;
+    font-size: 18px;
+ 	font-family: Open Sans, sans-serif;
+}
+
+.confirmation__top__box .confirmation__top__box__center{
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.confirmation__bottom{
+	padding: 2% 10%;
+	border-top: 2px solid #3CB371;
+}
+
+.confirmation__bottom > span{
+	color: #707070;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+}
+
+.confirmation__bottom > span strong{
+	color: #4169E1;
+	font-weight: 900;
+}
+
+.confirmation__bottom > span strong{
+	font-weight: 900;
+}
+
+.confirmation__bottom > section{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 0;
+}
+
+.confirmation__bottom__address{
+	padding: 1rem;
+	border: 2px solid #3CB371;
+	border-radius: 5px;
+	width: 33%;
+	margin-right: 10px;
+}
+
+.confirmation__bottom__payment{
+	padding: 1rem;
+	border: 2px solid #3CB371;
+	border-radius: 5px;
+	width: 33%;
+	margin-right: 10px;
+}
+
+.confirmation__bottom__price{
+	padding: 1rem;
+	border: 2px solid #3CB371;
+	border-radius: 5px;
+	width: 33%;
+}
+
+.confirmation__bottom__address h3{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.17rem;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+	color: #555;
+}
+
+.confirmation__bottom__address p{
+	font-family: Open Sans, sans-serif;
+	color: #707070;
+    line-height: 24px;
+    letter-spacing: 0.06rem;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.confirmation__bottom__address .confirmation__bottom__address__name{
+	font-size: 14px;
+    color: #707070;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+}
+
+.confirmation__bottom__payment h3{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.17rem;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+	color: #555;
+}
+
+.confirmation__bottom__payment__method{
+	display: flex;
+	align-items: center;
+}
+
+.confirmation__bottom__payment p{
+	font-family: Open Sans, sans-serif;
+	color: #707070;
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.confirmation__bottom__payment img{
+	width: 20px;
+	height: 20px;
+}
+
+.confirmation__bottom__price h3{
+	font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.17rem;
+    font-family: Open Sans, sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+	color: #555;
+}
+
+.confirmation__bottom__price p{
+	font-family: Open Sans, sans-serif;
+	color: #707070;
+    line-height: 24px;
+    letter-spacing: 0.06rem;
+    font-weight: 300;
+    font-size: 14px;
+    color: #3CB371;
+    font-weight: 900;
+    text-transform: uppercase;
+}

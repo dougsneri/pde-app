@@ -8,7 +8,7 @@
 <link rel="stylesheet" type="text/css" href="/css/reset.css" />
 <link rel="stylesheet" type="text/css" href="/css/produto.css" />
 <link rel="stylesheet" type="text/css" href="/css/home.css" />
-<title>Home</title>
+<title>Produto</title>
 </head>
 <body>
 	<main> <header class="header">
@@ -38,11 +38,23 @@
 				<section class="produto-container-right-title">
 					<p>Empregada 07</p>
 				</section>
+				<section class="produto-container-right-list">
+					<ul class="produto-container-right-list-top">
+						<li>Pacote Grátis</li>
+						<li>Pacote Premium</li>
+					</ul>
+					<ul class="produto-container-right-list-bottom">
+						<li>Limpeza Doméstica</li>
+						<li>Limpeza Geral</li>
+						<li>Faxina</li>
+						<li>Limpeza Empresarial</li>
+					</ul>
+				</section>
 				<section class="produto-container-right-price">
 					<p>R$ 99,90</p>
 				</section>
 				<section class="produto-container-right-btn-buy">
-					<a href="#">Contratar</a>
+					<a href="./checkout.jsp">Contratar</a>
 				</section>
 			</section>
 		</section>
