@@ -92,8 +92,8 @@
 			<div class="register__content__text__gender">
 				<div class="register__gender">
 					<p>Gênero</p>
-					<label for="type"> <input type="radio" value="feminino"
-						name="type" /> Feminino <input type="radio" value="masculino"
+					<label for="type"> <input type="radio" value="F"
+						name="type" /> Feminino <input type="radio" value="M"
 						name="type" /> Masculino
 					</label>
 				</div>
@@ -101,14 +101,6 @@
 			<div class="register__content__text__pass">
 				<p>Senha</p>
 				<input placeholder="Senha" />
-			</div>
-			<div class="register__content__text__pass">
-				<p>Prestadores já cadastrados</p>
-				<select id="prestadores-select"></select>
-			</div>
-			<div class="register__content__text__pass">
-				<p>Contratantes já cadastrados</p>
-				<select id="contratantes-select"></select>
 			</div>
 			<div class="register__content__buttons">
 				<a href="/">Voltar</a>
@@ -217,6 +209,7 @@
 	</footer> </main>
 	<div class="pde-overlay"></div>
 	<script src="/js/jquery-3.3.1.min.js"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/cadastro.js"></script>
 </body>

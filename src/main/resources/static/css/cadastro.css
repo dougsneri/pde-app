@@ -372,6 +372,7 @@
 .register__content__buttons .register__buttons__add{
 	margin-left: 50px;
 	background-color: #3CB371;
+	cursor: pointer;
 }
 
 .register__content p{

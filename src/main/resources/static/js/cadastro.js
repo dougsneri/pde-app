@@ -116,8 +116,145 @@ function montaSelectContratantes() {
 	});
 }
 
+function adicionaContratado() {
+	var _cpf = $('.register__content__text__cpf.is--active input').val();
+	console.log(_cpf);
+	var _nome = $('.register__content__text__name.is--active input').val();
+	console.log(_nome);
+	var _data = $('.register__content__text__dtnasc.is--active input').val();
+	console.log(_data);
+	var _email = $('.register__content__text__email.is--active input').val();
+	console.log(_email);
+	var _cep = $('.register__content__text__cep.is--active input').val();
+	console.log(_cep);
+	var _rua = $('.register__content__text__rua.is--active input').val();
+	console.log(_rua);
+	var _numero = $('.register__content__text__num.is--active input').val();
+	console.log(_numero);
+	var _complemento = $('.register__content__text__comple.is--active input').val();
+	console.log(_complemento);
+	var _bairro = $('.register__content__text__bairro.is--active input').val();
+	console.log(_bairro);
+	var _cidade = $('.register__content__text__city.is--active input').val();
+	console.log(_cidade);
+	var _estado = $('.register__content__text__state.is--active input').val();
+	console.log(_estado);
+	var _celular = $('.register__content__text__cel.is--active input').val();
+	console.log(_celular);
+	var _genero = $('.register__gender label input:checked').val()
+	console.log(_genero);
+	var _senha = $('.register__content__text__pass.is--active input').val();
+	console.log(_senha);
+	$('.register__buttons__add').click(function () {
+		$.ajax({
+		    type: 'POST',
+		    headers: {
+		        'Content-Type':'application/json'
+		    },
+		    url: 'http://localhost:8081/prestadores/adicionar',
+		    data: {
+		        cpf: _cpf,
+		        nome: _nome,
+		        sobrenome: 'Godoy',
+		        data_nascimento: _data,
+		        email: _email,
+		        cep: _cep,
+		        rua: _rua,
+		        numero: _numero,
+		        complemento: _complemento,
+		        bairro: _bairro,
+		        cidade: _cidade,
+		        estado: _estado,
+		        ddd1: '11',
+		        telefone1: _celular,
+		        ddd2: '11',
+		        telefone2: '99999999',
+		        genero: _genero,
+		        senha: _senha
+		    }
+		}).done(function (data) {
+		    console.log(data); 
+		    console.log('Boaaaa Caralhooo!'); 
+		}).error(function (data) {
+		    console.log(data);
+		    console.log('Deu ruimmmmm Muleque!'); 
+		});
+	})
+}
+
+function axios() {
+	
+	$('.register__buttons__add').click(function () {
+		var _cpf = $('.register__content__text__cpf.is--active input').val();
+		console.log(_cpf);
+		var _nome = $('.register__content__text__name.is--active input').val();
+		console.log(_nome);
+		var _data = $('.register__content__text__dtnasc.is--active input').val();
+		console.log(_data);
+		var _email = $('.register__content__text__email.is--active input').val();
+		console.log(_email);
+		var _cep = $('.register__content__text__cep.is--active input').val();
+		console.log(_cep);
+		var _rua = $('.register__content__text__rua.is--active input').val();
+		console.log(_rua);
+		var _numero = $('.register__content__text__num.is--active input').val();
+		console.log(_numero);
+		var _complemento = $('.register__content__text__comple.is--active input').val();
+		console.log(_complemento);
+		var _bairro = $('.register__content__text__bairro.is--active input').val();
+		console.log(_bairro);
+		var _cidade = $('.register__content__text__city.is--active input').val();
+		console.log(_cidade);
+		var _estado = $('.register__content__text__state.is--active input').val();
+		console.log(_estado);
+		var _celular = $('.register__content__text__cel.is--active input').val();
+		console.log(_celular);
+		var _genero = $('.register__gender label input:checked').val()
+		console.log(_genero);
+		var _senha = $('.register__content__text__pass.is--active input').val();
+		console.log(_senha);
+		axios({
+			method: "POST",
+			url: 'http://localhost:8081/prestadores/adicionar',
+			headers: {
+		        'Content-Type':'application/json'
+		    },
+			data: {
+				cpf: _cpf,
+		        nome: _nome,
+		        sobrenome: 'Godoy',
+		        data_nascimento: _data,
+		        email: _email,
+		        cep: _cep,
+		        rua: _rua,
+		        numero: _numero,
+		        complemento: _complemento,
+		        bairro: _bairro,
+		        cidade: _cidade,
+		        estado: _estado,
+		        ddd1: '11',
+		        telefone1: _celular,
+		        ddd2: '11',
+		        telefone2: '99999999',
+		        genero: _genero,
+		        senha: _senha
+			}
+		}).then(function (response) {
+			   console.log(response);
+			   console.log("Foi");
+			 })
+			 .catch(function (error) {
+			   console.log(error);
+			   console.log("Não foi");
+			 });
+			 
+	})
+}
+
 $(document).ready(function () {
 	cadastroJs();
-	montaSelectPrestadores();
-	montaSelectContratantes();
+	//adicionaContratado();
+	axios();
+	//montaSelectPrestadores();
+	//montaSelectContratantes();
 })
