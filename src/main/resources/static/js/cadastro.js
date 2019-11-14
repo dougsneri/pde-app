@@ -251,10 +251,31 @@ function axios() {
 	})
 }
 
+function exemploPost() {
+	$.ajax({
+		url : "http://localhost:8081/prestadores/adicionar",
+		type : 'POST',
+		data : JSON.stringify({ "cpf": "438.951.858-52", "nome": "Douglas", "sobrenome": "Gonçalves", "data_nascimento": "1995-09-22", "ddd1": "11", "telefone1": "970781390", "ddd2": "11", "telefone2": "33445566", "email": "laarissaa.goncalves@gmail.com", "status": true, "genero": "M", "senha": "senha123", "endereco": { "cep": "06149-260", "rua": "Rua Mário Quintana", "numero": "515", "complemento": "casa 4", "bairro": "Recanto das Rosas", "cidade": "Osasco", "estado": "São Paulo" } }),
+		beforeSend : function(xhrObj) {
+			xhrObj.setRequestHeader("Content-Type","application/json");
+            xhrObj.setRequestHeader("Accept","application/json");
+		}
+	})
+	.done(function(msg){
+		console.log(msg.data);
+	})
+	.fail(function(jqXHR, textStatus, msg){
+		var errorsList = jqXHR.responseJSON.errors;
+		for(error of errorsList) {
+			console.log("Erro: " + error);
+		}
+	});
+}
+
 $(document).ready(function () {
 	cadastroJs();
 	//adicionaContratado();
-	axios();
+	exemploPost();
 	//montaSelectPrestadores();
 	//montaSelectContratantes();
 })
