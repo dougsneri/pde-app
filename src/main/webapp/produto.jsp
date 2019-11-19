@@ -13,16 +13,14 @@
 <body>
 	<main> <header class="header">
 		<section class="title">
-			<a href="/"> <img src="/img/logo-provisorio.png" />
+			<a href="/"> <img src="/img/logo1.png" />
 			</a>
 		</section>
 		<section class="subtitle">
 			<h2>Empresa especializada em serviços domésticos</h2>
 		</section>
 		<section class="header__right">
-			<a href="#">
-				<p>Dúvidas</p>
-			</a> <a href="#">
+			<a class="js--entrar">
 				<p>Entrar</p>
 			</a> <a class="header__right_trabalhe" href="./cadastro.jsp">Trabalhe
 				conosco</a>
@@ -291,10 +289,31 @@
 					José Maria de Faria, 111 - Lapa - São Paulo/SP - Brasil</p>
 			</div>
 		</section>
-	</footer> </main>
+	</footer> 
+	<div class="pde-login" style="display: none">
+		<div class="pde-login__content">
+			<p>Entrar no Limpa Aí</p>
+			<div class="pde-login__content__login">
+				<p>E-mail</p>
+				<input id="email" />
+				<p>Senha</p>
+				<input id="senha" />
+			</div>
+			<div class="pde-login__content__btns">
+				<button class="js--close">Cancelar</button>
+				<button class="js--login">Acessar</button>
+			</div>
+			<div class="pde-login__content__redirect">
+				<p>Ainda não tem uma conta?</p>
+				<a href="/cadastro.jsp">Clique aqui para se cadastrar!</a>
+			</div>
+		</div>
+	</div>
 	<div class="pde-overlay"></div>
+	</main>
 	<script src="/js/carousel.js"></script>
 	<script src="/js/jquery-3.3.1.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/geral.js"></script>
 </body>
 </html>
