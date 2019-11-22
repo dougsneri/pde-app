@@ -342,6 +342,40 @@
 	width: 70%;
 }
 
+.register__job{
+	display: flex;
+}
+
+.register__job label{
+	display: flex;
+    color: #606060;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    align-items: center;
+    position: absolute;
+    right: 20%;
+}
+
+.register__job input{
+	margin-left: 8px;
+}
+
+.register__content__text__job {
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.register__content__text__job.is--active {
+	opacity: 1;
+	visibility: visible;
+	transition: ease-in .5s;
+	display: flex;
+}
+
 .register__content__text__pass {
 	align-items: center;
 	justify-content: space-between;
@@ -358,10 +392,6 @@
 }
 
 .register__content__text__pass input {
-	width: 70%;
-}
-
-.register__content__text__pass select {
 	width: 70%;
 }
 

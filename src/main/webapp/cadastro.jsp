@@ -13,7 +13,7 @@
 <body>
 	<main> <header class="header">
 		<section class="title">
-			<a href="/"> <img src="/img/logo1.png" />
+			<a href="/"> <img src="/img/Logo1.png" />
 			</a>
 		</section>
 		<section class="subtitle">
@@ -38,7 +38,7 @@
 		<div class="register__content">
 			<div class="register__content__text__cpf">
 				<p>CPF</p>
-				<input placeholder="CPF" />
+				<input placeholder="CPF" maxlength="14" OnKeyPress="formatar('###.###.###-##', this)"/>
 			</div>
 			<div class="register__content__text__firstName">
 				<p>Nome</p>
@@ -50,7 +50,7 @@
 			</div>
 			<div class="register__content__text__dtnasc">
 				<p>Data de nascimento</p>
-				<input placeholder="Data de Nascimento" />
+				<input placeholder="Data de Nascimento" maxlength="10" OnKeyPress="formatar('##/##/####', this)"/>
 			</div>
 			<div class="register__content__text__email">
 				<p>E-mail</p>
@@ -62,7 +62,7 @@
 			</div>
 			<div class="register__content__text__cep">
 				<p>CEP</p>
-				<input placeholder="CEP" />
+				<input placeholder="CEP" maxlength="9" OnKeyPress="formatar('#####-###', this)"/>
 			</div>
 			<div class="register__content__text__rua">
 				<p>Nome da rua</p>
@@ -90,14 +90,26 @@
 			</div>
 			<div class="register__content__text__cel">
 				<p>Celular</p>
-				<input placeholder="Celular" />
+				<input placeholder="Celular" maxlength="10" OnKeyPress="formatar('#####-####', this)"/>
 			</div>
 			<div class="register__content__text__gender">
 				<div class="register__gender">
 					<p>Gênero</p>
 					<label for="type"> <input type="radio" value="F"
-						name="type" /> Feminino <input type="radio" value="M"
-						name="type" /> Masculino
+						name="gender" /> Feminino <input type="radio" value="M"
+						name="gender" /> Masculino
+					</label>
+				</div>
+			</div>
+			<div class="register__content__text__job">
+				<div class="register__job">
+					<p>Serviços prestados</p>
+					<label for="type"> <input type="checkbox" value=""
+						name="service" /> Limpeza Geral <input type="checkbox" value=""
+						name="service" /> Limpeza Doméstica <input type="checkbox" value=""
+						name="service" /> Limpeza Empresarial <input type="checkbox" value=""
+						name="service" /> Faxina <input type="checkbox" value=""
+						name="service" /> Passadeira
 					</label>
 				</div>
 			</div>
@@ -236,5 +248,17 @@
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/cadastro.js"></script>
 	<script src="/js/geral.js"></script>
+	<script>
+        function formatar(mascara, documento) {
+            var i = documento.value.length;
+            var saida = mascara.substring(0, 1);
+            var texto = mascara.substring(i)
+
+            if (texto.substring(0, 1) != saida) {
+                documento.value += texto.substring(0, 1);
+            }
+
+        }
+    </script>
 </body>
 </html>

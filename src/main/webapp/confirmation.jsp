@@ -13,7 +13,7 @@
 <body>
 	<main> <header class="header">
 		<section class="title">
-			<a href="/"> <img src="/img/logo1.png" />
+			<a href="/"> <img src="/img/Logo1.png" />
 			</a>
 		</section>
 		<section class="subtitle">

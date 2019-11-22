@@ -16,6 +16,7 @@ function cadastroJs() {
 			$('.register__content__text__bairro').removeClass("is--active");
 			$('.register__content__text__city').removeClass("is--active");
 			$('.register__content__text__state').removeClass("is--active");
+			$('.register__content__text__job').removeClass("is--active");
 			$('.register__content__text__pass').removeClass("is--active");
 			$('.register__content__buttons').removeClass("is--active");
 			setTimeout(function () {
@@ -34,6 +35,7 @@ function cadastroJs() {
 				$('.register__content__text__bairro').addClass("is--active");
 				$('.register__content__text__city').addClass("is--active");
 				$('.register__content__text__state').addClass("is--active");
+				$('.register__content__text__job').addClass("is--active");
 				$('.register__content__text__pass').addClass("is--active");
 				$('.register__content__buttons').addClass("is--active");
 			}, 1)
@@ -54,6 +56,7 @@ function cadastroJs() {
 			$('.register__content__text__bairro').removeClass("is--active");
 			$('.register__content__text__city').removeClass("is--active");
 			$('.register__content__text__state').removeClass("is--active");
+			$('.register__content__text__job').removeClass("is--active");
 			$('.register__content__text__pass').removeClass("is--active");
 			$('.register__content__buttons').removeClass("is--active");
 			setTimeout(function() {
@@ -98,74 +101,146 @@ function montaSelectContratantes() {
 }
 
 function adicionaContratado() {
-
 	$('.register__buttons__add').click(function () {
-		var _cpf = $('.register__content__text__cpf.is--active input').val();
-		console.log(_cpf);
-		var _nome = $('.register__content__text__firstName.is--active input').val();
-		console.log(_nome);
-		var _sobrenome = $('.register__content__text__lastName.is--active input').val();
-		console.log(_sobrenome);
-		var _data = $('.register__content__text__dtnasc.is--active input').val();
-		console.log(_data);
-		var _email = $('.register__content__text__email.is--active input').val();
-		console.log(_email);
-		var _cep = $('.register__content__text__cep.is--active input').val();
-		console.log(_cep);
-		var _rua = $('.register__content__text__rua.is--active input').val();
-		console.log(_rua);
-		var _numero = $('.register__content__text__num.is--active input').val();
-		console.log(_numero);
-		var _complemento = $('.register__content__text__comple.is--active input').val();
-		console.log(_complemento);
-		var _bairro = $('.register__content__text__bairro.is--active input').val();
-		console.log(_bairro);
-		var _cidade = $('.register__content__text__city.is--active input').val();
-		console.log(_cidade);
-		var _estado = $('.register__content__text__state.is--active input').val();
-		console.log(_estado);
-		var _celular = $('.register__content__text__cel.is--active input').val();
-		console.log(_celular);
-		var _genero = $('.register__gender label input:checked').val()
-		console.log(_genero);
-		var _senha = $('.register__content__text__pass.is--active input').val();
-		console.log(_senha);
-		$.ajax({
-			type: "POST",
-			url: 'http://localhost:8081/prestadores/adicionar',
-			headers: {
-				'Content-Type':'application/json',
-				'Accept': 'application/json'
-			},
-			data : JSON.stringify({ 
-				"cpf": _cpf, 
-				"nome": _nome, 
-				"sobrenome": _sobrenome, 
-				"data_nascimento": _data, 
-				"ddd1": "11", "telefone1": _celular, 
-				"ddd2": "11", "telefone2": "33445566", 
-				"email": _email, 
-				"status": true, "genero": _genero, 
-				"senha": _senha, 
-				"endereco": { 
-					"cep": _cep, 
-					"rua": _rua, 
-					"numero": _numero, 
-					"complemento": "casa 4", 
-					"bairro": _bairro, 
-					"cidade": _cidade, 
-					"estado": _estado 
-				} 
-			}),
-		}).done(function(msg){
-			console.log(msg);
-			console.log("Foi");
-			console.log(msg.data);
-		}).fail(function (msg) {
-			console.log(msg);
-			console.log("Não foi");
-		});
+		if($('.register__option input:checked').val() == 'diarista'){
+			var _cpf = $('.register__content__text__cpf.is--active input').val().replace(/[\.-]/g, "");
+			console.log(_cpf);
+			var _nome = $('.register__content__text__firstName.is--active input').val();
+			console.log(_nome);
+			var _sobrenome = $('.register__content__text__lastName.is--active input').val();
+			console.log(_sobrenome);
+			var _data = $('.register__content__text__dtnasc.is--active input').val().split('/').reverse().join('-');
+			console.log(_data);
+			var _email = $('.register__content__text__email.is--active input').val();
+			console.log(_email);
+			var _cep = $('.register__content__text__cep.is--active input').val().replace(/[\.-]/g, "");
+			console.log(_cep);
+			var _rua = $('.register__content__text__rua.is--active input').val();
+			console.log(_rua);
+			var _numero = $('.register__content__text__num.is--active input').val();
+			console.log(_numero);
+			var _complemento = $('.register__content__text__comple.is--active input').val();
+			console.log(_complemento);
+			var _bairro = $('.register__content__text__bairro.is--active input').val();
+			console.log(_bairro);
+			var _cidade = $('.register__content__text__city.is--active input').val();
+			console.log(_cidade);
+			var _estado = $('.register__content__text__state.is--active input').val();
+			console.log(_estado);
+			var _celular = $('.register__content__text__cel.is--active input').val();
+			console.log(_celular);
+			var _genero = $('.register__gender label input:checked').val()
+			console.log(_genero);
+			var _senha = $('.register__content__text__pass.is--active input').val();
+			console.log(_senha);
+			$.ajax({
+				type: "POST",
+				url: 'http://localhost:8081/prestadores/adicionar',
+				headers: {
+					'Content-Type':'application/json',
+					'Accept': 'application/json'
+				},
+				data : JSON.stringify({ 
+					"cpf": _cpf, 
+					"nome": _nome, 
+					"sobrenome": _sobrenome, 
+					"data_nascimento": _data, 
+					"ddd1": "11", "telefone1": _celular, 
+					"ddd2": "11", "telefone2": "33445566", 
+					"email": _email, 
+					"status": true, "genero": _genero, 
+					"senha": _senha, 
+					"endereco": { 
+						"cep": _cep, 
+						"rua": _rua, 
+						"numero": _numero, 
+						"complemento": "casa 4", 
+						"bairro": _bairro, 
+						"cidade": _cidade, 
+						"estado": _estado 
+					} 
+				}),
+			}).done(function(msg){
+				console.log(msg);
+				console.log("Foi");
+				console.log(msg.data);
+			}).fail(function (msg) {
+				console.log(msg);
+				console.log("Não foi");
+			});
+		}
+	})
+}
 
+function adicionaContratante() {
+	$('.register__buttons__add').click(function () {
+		if($('.register__option input:checked').val() == 'contratante'){
+			var _cpf = $('.register__content__text__cpf.is--active input').val().replace(/[\.-]/g, "");
+			console.log(_cpf);
+			var _nome = $('.register__content__text__firstName.is--active input').val();
+			console.log(_nome);
+			var _sobrenome = $('.register__content__text__lastName.is--active input').val();
+			console.log(_sobrenome);
+			var _data = $('.register__content__text__dtnasc.is--active input').val().split('/').reverse().join('-');
+			console.log(_data);
+			var _email = $('.register__content__text__email.is--active input').val();
+			console.log(_email);
+			var _cep = $('.register__content__text__cep.is--active input').val().replace(/[\.-]/g, "");
+			console.log(_cep);
+			var _rua = $('.register__content__text__rua.is--active input').val();
+			console.log(_rua);
+			var _numero = $('.register__content__text__num.is--active input').val();
+			console.log(_numero);
+			var _complemento = $('.register__content__text__comple.is--active input').val();
+			console.log(_complemento);
+			var _bairro = $('.register__content__text__bairro.is--active input').val();
+			console.log(_bairro);
+			var _cidade = $('.register__content__text__city.is--active input').val();
+			console.log(_cidade);
+			var _estado = $('.register__content__text__state.is--active input').val();
+			console.log(_estado);
+			var _celular = $('.register__content__text__cel.is--active input').val();
+			console.log(_celular);
+			var _genero = $('.register__gender label input:checked').val()
+			console.log(_genero);
+			var _senha = $('.register__content__text__pass.is--active input').val();
+			console.log(_senha);
+			$.ajax({
+				type: "POST",
+				url: 'http://localhost:8081/contratantes/adicionar',
+				headers: {
+					'Content-Type':'application/json',
+					'Accept': 'application/json'
+				},
+				data : JSON.stringify({ 
+					"cpf": _cpf, 
+					"nome": _nome, 
+					"sobrenome": _sobrenome, 
+					"data_nascimento": _data, 
+					"ddd1": "11", "telefone1": _celular, 
+					"ddd2": "11", "telefone2": "33445566", 
+					"email": _email, 
+					"status": true, "genero": _genero, 
+					"senha": _senha, 
+					"endereco": { 
+						"cep": _cep, 
+						"rua": _rua, 
+						"numero": _numero, 
+						"complemento": "casa 4", 
+						"bairro": _bairro, 
+						"cidade": _cidade, 
+						"estado": _estado 
+					} 
+				}),
+			}).done(function(msg){
+				console.log(msg);
+				console.log("Foi");
+				console.log(msg.data);
+			}).fail(function (msg) {
+				console.log(msg);
+				console.log("Não foi");
+			});
+		}
 	})
 }
 
@@ -193,4 +268,5 @@ function exemploPost() {
 $(document).ready(function () {
 	cadastroJs();
 	adicionaContratado();
+	adicionaContratante();
 })
