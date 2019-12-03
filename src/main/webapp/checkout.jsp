@@ -31,29 +31,30 @@
 		<div class="checkout__content">
 			<div class="checkout__content__left">
 				<h4>Dados pessoais</h4>
-				<p>Solicitamos apenas as informações essenciais para a realização da compra.</p>
+				<p>Solicitamos apenas as informações essenciais para a
+					realização da compra.</p>
 				<div class="checkout__content__left__email">
 					<h5>E-mail</h5>
-					<input type="email" name="email"/>
+					<input type="email" name="email" />
 				</div>
 				<div class="checkout__content__left__name">
 					<div class="checkout__content__left__name__left">
 						<h5>Primeiro Nome</h5>
-						<input type="text"/>
+						<input type="text" />
 					</div>
 					<div class="checkout__content__left__name__right">
 						<h5>Último Nome</h5>
-						<input type="text"/>
+						<input type="text" />
 					</div>
 				</div>
 				<div class="checkout__content__left__block">
 					<div class="checkout__content__left__cpf">
 						<h5>CPF</h5>
-						<input type="text" placeholder="999.999.999-99"/>
+						<input type="text" placeholder="999.999.999-99" />
 					</div>
 					<div class="checkout__content__left__tel">
 						<h5>Telefone</h5>
-						<input type="text" placeholder="11 99999-9999"/>
+						<input type="text" placeholder="11 99999-9999" />
 					</div>
 				</div>
 				<div class="checkout__content__left__submit">
@@ -64,20 +65,21 @@
 				<h4>Endereço</h4>
 				<div class="checkout__content__center__cep">
 					<h5>CEP</h5>
-					<input type="text" name="cep"/>
+					<input type="text" name="cep" />
 				</div>
-				<span class="checkout__content__center__address">Rua dos Bobos</span>
+				<span class="checkout__content__center__address">Rua dos
+					Bobos</span>
 				<div class="checkout__content__center__number">
 					<h5>Número</h5>
-					<input type="text"/>
+					<input type="text" />
 				</div>
 				<div class="checkout__content__center__address2">
 					<h5>Complemento</h5>
-					<input type="text" placeholder="OPCIONAL"/>
+					<input type="text" placeholder="OPCIONAL" />
 				</div>
 				<div class="checkout__content__center__name">
-					<h5>Destinatário</h5>  
-					<input type="text"/>
+					<h5>Destinatário</h5>
+					<input type="text" />
 				</div>
 				<div class="checkout__content__center__submit">
 					<button type="submit">Ir para o pagamento</button>
@@ -88,21 +90,22 @@
 				<p>Cartão de Crédito</p>
 				<div class="checkout__content__right__number">
 					<h5>Número do cartão</h5>
-					<input type="text" name="cardNumber"/>
+					<input type="text" name="cardNumber" />
 				</div>
-				<input class="checkout__content__right__parcela" placeholder="Em quantas parcelas deseja pagar?"/>
+				<input class="checkout__content__right__parcela"
+					placeholder="Em quantas parcelas deseja pagar?" />
 				<div class="checkout__content__right__name">
 					<h5>Nome impresso no cartão</h5>
-					<input type="text"/>
+					<input type="text" />
 				</div>
 				<div class="checkout__content__right__shelf">
 					<h5>Validade</h5>
-					<input type="text" placeholder="mês"/>
-					<input type="text" placeholder="ano"/>
+					<input type="text" placeholder="mês" /> <input type="text"
+						placeholder="ano" />
 				</div>
 				<div class="checkout__content__right__cvv">
 					<h5>Código de segurança</h5>
-					<input type="text"/>
+					<input type="text" />
 				</div>
 				<div class="checkout__content__right__submit">
 					<a type="submit" href="/confirmation.jsp">Finalizar Pagamento</a>
@@ -110,6 +113,48 @@
 			</div>
 		</div>
 	</div>
+	
+	<form action="" method="post" id="pay" name="pay">
+		<fieldset>
+			<ul>
+				<li><label for="email">Email</label> <input id="email"
+					name="email" value="test_user_19653727@testuser.com" type="email"
+					placeholder="your email" /></li>
+				<li><label for="cardNumber">Credit card number:</label> <input
+					type="text" id="cardNumber" data-checkout="cardNumber"
+					placeholder="4509 9535 6623 3704" onselectstart="return false"
+					onpaste="return false" onCopy="return false" onCut="return false"
+					onDrag="return false" onDrop="return false" autocomplete=off /></li>
+				<li><label for="securityCode">Security code:</label> <input
+					type="text" id="securityCode" data-checkout="securityCode"
+					placeholder="123" onselectstart="return false"
+					onpaste="return false" onCopy="return false" onCut="return false"
+					onDrag="return false" onDrop="return false" autocomplete=off /></li>
+				<li><label for="cardExpirationMonth">Expiration month:</label>
+					<input type="text" id="cardExpirationMonth"
+					data-checkout="cardExpirationMonth" placeholder="12"
+					onselectstart="return false" onpaste="return false"
+					onCopy="return false" onCut="return false" onDrag="return false"
+					onDrop="return false" autocomplete=off /></li>
+				<li><label for="cardExpirationYear">Expiration year:</label> <input
+					type="text" id="cardExpirationYear"
+					data-checkout="cardExpirationYear" placeholder="2015"
+					onselectstart="return false" onpaste="return false"
+					onCopy="return false" onCut="return false" onDrag="return false"
+					onDrop="return false" autocomplete=off /></li>
+				<li><label for="cardholderName">Card holder name:</label> <input
+					type="text" id="cardholderName" data-checkout="cardholderName"
+					placeholder="APRO" /></li>
+				<li><label for="docType">Document type:</label> <select
+					id="docType" data-checkout="docType"></select></li>
+				<li><label for="docNumber">Document number:</label> <input
+					type="text" id="docNumber" data-checkout="docNumber"
+					placeholder="12345678" /></li>
+			</ul>
+			<input type="hidden" name="paymentMethodId" /> <input type="submit"
+				value="Pay!" />
+		</fieldset>
+	</form>
 
 	<footer class="footer">
 		<section class="footer__middle">
@@ -187,7 +232,7 @@
 					José Maria de Faria, 111 - Lapa - São Paulo/SP - Brasil</p>
 			</div>
 		</section>
-	</footer> 
+	</footer>
 	<div class="pde-login" style="display: none">
 		<div class="pde-login__content">
 			<p>Entrar no Limpa Aí</p>
@@ -212,5 +257,8 @@
 	<script src="/js/jquery-3.3.1.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/geral.js"></script>
+	<script
+		src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
+	<script src="/js/checkout.js"></script>
 </body>
 </html>
