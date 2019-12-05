@@ -34,7 +34,7 @@
 			</section>
 			<section class="produto-container-right">
 				<section class="produto-container-right-title">
-					<p>Empregada 07</p>
+					<p>Conceição</p>
 				</section>
 				<section class="produto-container-right-list">
 					<ul class="produto-container-right-list-top">
@@ -109,7 +109,7 @@
 						<article>
 							<center>
 								<img class="carousel-image" src="/img/empregada01.jpg">
-								<p class="carousel-style carousel-title">Empregada 01</p>
+								<p class="carousel-style carousel-title">Rosilma</p>
 								<p class="carousel-style carousel-subtitle">R$ 100,00</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
@@ -119,7 +119,7 @@
 						<article>
 							<center>
 								<img class="carousel-image" src="/img/empregada02.jpg">
-								<p class="carousel-style carousel-title">Empregada 02</p>
+								<p class="carousel-style carousel-title">Lurdes</p>
 								<p class="carousel-style carousel-subtitle">R$ 90,00</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
@@ -129,7 +129,7 @@
 						<article>
 							<center>
 								<img class="carousel-image" src="/img/empregada03.jpg">
-								<p class="carousel-style carousel-title">Empregada 03</p>
+								<p class="carousel-style carousel-title">Adriana</p>
 								<p class="carousel-style carousel-subtitle">R$ 80,00</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
@@ -138,8 +138,8 @@
 					<div class="swiper-slide carousel-line">
 						<article>
 							<center>
-								<img class="carousel-image" src="/img/empregada04.jpg">
-								<p class="carousel-style carousel-title">Empregada 04</p>
+								<img class="carousel-image" src="/img/homem3.jpg">
+								<p class="carousel-style carousel-title">Gerson</p>
 								<p class="carousel-style carousel-subtitle">R$ 110,00</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
@@ -149,7 +149,7 @@
 						<article>
 							<center>
 								<img class="carousel-image" src="/img/empregada05.jpg">
-								<p class="carousel-style carousel-title">Empregada 05</p>
+								<p class="carousel-style carousel-title">Geise</p>
 								<p class="carousel-style carousel-subtitle">R$ 115,00</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
@@ -158,8 +158,8 @@
 					<div class="swiper-slide carousel-line">
 						<article>
 							<center>
-								<img class="carousel-image" src="/img/empregada06.jpg">
-								<p class="carousel-style carousel-title">Empregada 06</p>
+								<img class="carousel-image" src="/img/homem1.png">
+								<p class="carousel-style carousel-title">Cristiano</p>
 								<p class="carousel-style carousel-subtitle">R$ 105,00</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
@@ -169,7 +169,7 @@
 						<article>
 							<center>
 								<img class="carousel-image" src="/img/empregada07.jpg">
-								<p class="carousel-style carousel-title">Empregada 07</p>
+								<p class="carousel-style carousel-title">Conceição</p>
 								<p class="carousel-style carousel-subtitle">R$ 99,90</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
@@ -179,7 +179,7 @@
 						<article>
 							<center>
 								<img class="carousel-image" src="/img/empregada08.jpg">
-								<p class="carousel-style carousel-title">Empregada 08</p>
+								<p class="carousel-style carousel-title">Isabel</p>
 								<p class="carousel-style carousel-subtitle">R$ 85,00</p>
 								<a href="#" class="carousel-style carousel-comprar">Contratar</a>
 							</center>
