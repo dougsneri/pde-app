@@ -70,9 +70,7 @@
                         <p>R$ 99,90</p>
                     </section>
                     <section class="produto-container-right-btn-buy">
-                        <a mp-mode="dftl"
-                            href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=245770704-6bdc335d-244b-4fe4-8507-3f46e05e6f90"
-                            name="MP-payButton" class='blue-ar-l-rn-none'>Contratar</a>
+                        <a mp-mode="dftl" href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=245770704-bddbde69-823d-4ee2-ac58-0fd921d414d3" name="MP-payButton" class='blue-ar-l-rn-none'>Contratar</a>
                     </section>
                 </section>
             </section>
@@ -316,8 +314,8 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/geral.js"></script>
     <script type="text/javascript">
-        (function () { function $MPC_load() { window.$MPC_loaded !== true && (function () { var s = document.createElement("script"); s.type = "text/javascript"; s.async = true; s.src = document.location.protocol + "//secure.mlstatic.com/mptools/render.js"; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); window.$MPC_loaded = true; })(); } window.$MPC_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null; })();
-    </script>
+(function(){function $MPC_load(){window.$MPC_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;s.src = document.location.protocol+"//secure.mlstatic.com/mptools/render.js";var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPC_loaded = true;})();}window.$MPC_loaded !== true ? (window.attachEvent ?window.attachEvent('onload', $MPC_load) : window.addEventListener('load', $MPC_load, false)) : null;})();
+</script>
 </body>
 
 </html>
