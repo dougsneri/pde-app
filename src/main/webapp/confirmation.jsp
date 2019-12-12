@@ -33,8 +33,7 @@
 			<div class="confirmation__top__box">
 				<strong>Seu pedido foi realizado com sucesso!</strong>
 				<p class="confirmation__top__box__center">
-					Um e-mail de confirmação foi enviado a você em <strong>dudurossigodoy2010@gmail.com</strong>
-					com todos os detalhes do pedido.
+					Um e-mail de confirmação foi enviado a você com todos os detalhes do pedido.
 				</p>
 				<p>Seu pagamento está sendo processado, você receberá um SMS de
 					confirmação.</p>
@@ -58,14 +57,14 @@
 					<div class="confirmation__bottom__payment__method">
 						<img src="/img/card.png" />
 						<p class="confirmation__bottom__middle__payment">
-							Pagamento em cartão no valor de <strong>R$ 20,00</strong>
+							Pagamento em cartão no valor de <strong>R$ 1,00</strong>
 						</p>
 					</div>
 				</div>
 				<div class="confirmation__bottom__price">
 					<h3>Resumo</h3>
 					<p>
-						Total <span>R$ 10,00</span>
+						Total <span>R$ 1,00</span>
 					</p>
 				</div>
 			</section>

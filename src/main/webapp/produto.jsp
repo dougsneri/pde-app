@@ -70,7 +70,7 @@
                         <p>R$ 99,90</p>
                     </section>
                     <section class="produto-container-right-btn-buy">
-                        <a mp-mode="dftl" href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=245770704-bddbde69-823d-4ee2-ac58-0fd921d414d3" name="MP-payButton" class='blue-ar-l-rn-none'>Contratar</a>
+                    	<a mp-mode="dftl" href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=245770704-bddbde69-823d-4ee2-ac58-0fd921d414d3" name="MP-payButton" class='blue-ar-l-rn-none'>Contrato</a>
                     </section>
                 </section>
             </section>
