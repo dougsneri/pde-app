@@ -135,7 +135,7 @@ function adicionaContratado() {
 			console.log(_senha);
 			$.ajax({
 				type: "POST",
-				url: 'http://localhost:8081/prestadores/adicionar',
+				url: 'https://guarded-basin-71739.herokuapp.com/prestadores/adicionar',
 				headers: {
 					'Content-Type':'application/json',
 					'Accept': 'application/json'
@@ -163,6 +163,7 @@ function adicionaContratado() {
 			}).done(function(msg){
 				console.log(msg);
 				console.log("Foi");
+				alert('Usuário cadastrado com sucesso!');
 				console.log(msg.data);
 			}).fail(function (msg) {
 				console.log(msg);
@@ -207,7 +208,7 @@ function adicionaContratante() {
 			console.log(_senha);
 			$.ajax({
 				type: "POST",
-				url: 'http://localhost:8081/contratantes/adicionar',
+				url: 'https://guarded-basin-71739.herokuapp.com/contratantes/adicionar',
 				headers: {
 					'Content-Type':'application/json',
 					'Accept': 'application/json'
@@ -235,6 +236,7 @@ function adicionaContratante() {
 			}).done(function(msg){
 				console.log(msg);
 				console.log("Foi");
+				alert('Usuário cadastrado com sucesso!');
 				console.log(msg.data);
 			}).fail(function (msg) {
 				console.log(msg);
